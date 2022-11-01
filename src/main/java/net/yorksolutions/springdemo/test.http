@@ -1,0 +1,39 @@
+###
+POST http://localhost:8080/api/employee/
+Content-Type: application/json
+
+{
+  "name": "Emily",
+  "role": "Empress"
+}
+
+###
+POST http://localhost:8080/api/employee/
+Content-Type: application/json
+
+{
+  "name": "Kevin Bacon",
+  "role": "Best Friend"
+}
+
+###
+POST http://localhost:8080/api/employee/
+Content-Type: application/json
+
+{
+  "name": "Jackie Chan",
+  "role": "Security"
+}
+
+###
+POST http://localhost:8080/api/employee/
+Content-Type: application/json
+
+{
+  "name": "Sporky",
+  "role": "I'm Trash"
+}
+
+###
+POST http://localhost:8080/api/manager?managersName=Emily
+Content-Type: application/json
